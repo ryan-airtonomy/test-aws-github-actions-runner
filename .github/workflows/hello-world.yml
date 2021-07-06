@@ -1,0 +1,14 @@
+name: "hello-world"
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  testing:
+    runs-on: "self-hosted"
+    steps:
+      - name: hello world
+        run: |
+          echo "hello world"
+          date
