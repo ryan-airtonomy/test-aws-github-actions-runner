@@ -1,3 +1,3 @@
 # Test AWS Github Actions Runner
 
-bump 5
+bump 6
